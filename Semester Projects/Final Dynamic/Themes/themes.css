@@ -200,3 +200,10 @@ input {
     font-size: 14px;
     color: #79816a;
 }
+
+
+
+/* Centers button */
+.theme-btn {
+    text-align: center;
+}
