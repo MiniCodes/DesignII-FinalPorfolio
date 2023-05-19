@@ -200,3 +200,110 @@ input {
     font-size: 14px;
     color: #79816a;
 }
+
+
+
+/* Styles the simple Calculator */
+.calculator {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
+    font-size: 18px;
+}
+
+/* Places the content for the description of
+the simple calculator */
+.simple-cal-para {
+    text-align: center;
+    display: grid;
+    grid-template-columns: .5fr .5fr;
+    column-gap: 15px;
+}
+
+/* Positions description for the simple 
+calculator in column 2 */
+.simple-cal-para p {
+    grid-column-start: 2;
+}
+
+/* Styles the simple calculator*/
+.simple-cal {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+}
+
+/* Sizes the text next to the simple calculator */
+.simple-cal p {
+    font-size: 16px;
+}
+
+/* Creates the rows/row spacing for the simple 
+calculator */
+.calrows {
+    width: 85%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 3px;
+
+    background-color: #e2d4e0;
+    border-radius: 16px;
+    padding: 8px;
+}
+
+/* Styles the inputs for the simple calculator buttons */
+.calrows input{
+    background: #949ab1c4;
+    border: 1px solid #fffdf6;
+    border-radius: 16px;
+    color: #4c5372;
+}
+
+/* Creates grid for row 1 of simple 
+calculator */
+.calrow1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 3px;
+}
+
+/* Styles input to span 1 through 3 of the 
+4 spaces in the grid */
+.calrow1 input[type=text] {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+}
+
+/* Creates grid for row 2 of simple
+calculator */
+.calrow2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 3px;
+}
+
+/* Creates grid for row 3 of simple
+calculator */
+.calrow3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 3px;
+}
+
+/* Creates grid for row 4 of simple
+calculator */
+.calrow4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 3px;
+}
+
+/* Creates grid for row 5 of simple
+calculator */
+.calrow5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 3px;
+}
