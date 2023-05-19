@@ -200,3 +200,23 @@ input {
     font-size: 14px;
     color: #79816a;
 }
+
+
+
+/* Centers button for class information page */
+.classinfo {
+    text-align: center;
+}
+
+/* Sizes font for Class Info button */
+.classinfo button {
+    font-size: 15px;
+}
+
+/* Styles class information content */
+.printed-classinfo {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    color: #71808ac3;
+}

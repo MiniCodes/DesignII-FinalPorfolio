@@ -200,3 +200,10 @@ input {
     font-size: 14px;
     color: #79816a;
 }
+
+
+
+/* Positions the input for Math Loop page */
+.mathloopinput {
+    text-align: center;
+}

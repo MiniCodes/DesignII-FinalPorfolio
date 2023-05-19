@@ -200,3 +200,10 @@ input {
     font-size: 14px;
     color: #79816a;
 }
+
+
+
+/* Positions buttons & paragraph for Game page */
+.Randopara-buttons {
+    text-align: center;
+}
