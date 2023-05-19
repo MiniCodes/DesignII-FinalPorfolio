@@ -5,6 +5,9 @@
 
         <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Caveat:wght@400;500;600;700&family=Handlee&family=Homemade+Apple&family=Kalam&family=Marck+Script&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="namescolors.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+        </script>
     </head>
 
     <body>
@@ -47,6 +50,23 @@
             </div>
         </header>
 
-        <h1>Welcome to Colors!</h1>
+        <h1>Enter Your Color Choice</h1>
+  
+        <div class="colors-button">
+            <button type="button" onclick="changecolor()">
+                Color
+            </button>
+        </div>
+      
+        <script>
+            function changecolor()
+            {
+                // Generating random color each time
+                var color = "#"+(Math.random()*16777215|0).toString(16);
+                  
+                $("body").css("background-color",color);
+            }
+        </script>
+
     </body>
 </html>

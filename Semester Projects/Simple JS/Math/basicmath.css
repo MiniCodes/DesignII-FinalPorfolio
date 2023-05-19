@@ -200,3 +200,10 @@ input {
     font-size: 14px;
     color: #79816a;
 }
+
+
+
+/* Positions content for Basic Math Page */
+.math-content {
+    text-align: center;
+}

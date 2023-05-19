@@ -47,6 +47,27 @@
             </div>
         </header>
 
-        <h1>welcome to Names!</h1>
+        <h1>Enter Your Name</h1>
+  
+        <div class="name-input">
+            <input id="name" 
+                type="text">
+            <button type="button" onclick="EnterName()">
+                Submit
+            </button>
+            <p style="color: #71808ac3" id="demo"></p>
+        </div>
+          
+          
+        <script>
+            function EnterName()
+            {
+                var x= document.getElementById("name").value;
+              
+                document.getElementById("demo").innerHTML = 
+                    "Welcome to MiniCodes "+ x ;
+            }
+        </script>
+        
     </body>
 </html>

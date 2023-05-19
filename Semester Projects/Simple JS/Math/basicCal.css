@@ -200,3 +200,38 @@ input {
     font-size: 14px;
     color: #79816a;
 }
+
+
+
+.math-calculator h3 {
+    font-size: 28px;
+}
+
+/* Styles the paragraphs for the Math
+Calculator */
+.math-calculator p {
+    font-size: 18px;
+}
+
+/* Styles the inputs for the Math 
+Calculator */
+.calinputs {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Styles the labels for the Math Calculator
+inputs */
+.calinputs p {
+    font-weight: 600;
+    font-style: italic;
+    font-size: 16px;
+}
+
+/* Styles the buttons for the Math Calculator */
+.calbuttons {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}

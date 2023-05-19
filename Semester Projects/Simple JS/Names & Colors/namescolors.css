@@ -200,3 +200,15 @@ input {
     font-size: 14px;
     color: #79816a;
 }
+
+
+
+/* Centers the input & button for Names page */
+.name-input {
+    text-align: center;
+}
+
+/* Centers button for color page */
+.colors-button {
+    text-align: center;
+}
