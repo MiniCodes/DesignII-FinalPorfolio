@@ -178,6 +178,13 @@ h3 {
     text-align: center;
 }
 
+/* Styles headers 2 */
+h2 {
+    font-family: 'Marck Script', cursive;
+    font-size: 34px;
+    color: #8496a2d2;
+}
+
 /* Styles paragraphs in general */
 p {
     font-family: 'Handlee', cursive;
@@ -199,4 +206,164 @@ input {
     font-family: 'Handlee', cursive;
     font-size: 14px;
     color: #79816a;
+}
+
+
+
+/* Positions the intro content using grid */
+.intro-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 12px;
+}
+
+/* Styles Intro paragraph */
+.intro-para {
+    padding-left: 10px;
+    padding-right: 38px;
+}
+
+/* Positions Reflection paragraph using Grid */
+.reflection-paras {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    column-gap: 12px;
+}
+
+/* Styles the Reflection Paragraph */
+.reflection-paras p {
+    grid-column-start: 2;
+
+    background-color: #8496a246;
+    /* Green background: d4d7c486 */
+    border-radius: 14px;
+
+    font-size: 20px;
+    color: #61717c;
+
+    padding: 18px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+
+
+/* Centers the profile picture of the MiniCodes 
+GitHub */
+.minicodes-pfp {
+    margin: auto;
+}
+
+/* Styles MiniCodes profile picture */
+.minicodes-pfp img {
+    width: 250px;
+    height: 250px;
+
+    border-radius: 55px;
+}
+
+
+/* Positions the fav projects using grid */
+.fav-coding-projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 18px;
+    
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 14px;
+}
+
+/* Styles the links for the fav coding 
+projects */
+.fav-coding-projects a {
+    font-family: 'Handlee', cursive;
+    font-size: 16px;
+
+    font-style: italic;
+    font-weight: bold;
+
+    color: #818877f1;
+}
+
+/* Aligns Daily To-Do List content center
+& styles background */
+.daily-list {
+    text-align: center;
+
+    background-color: #d4d7c486;
+    border-radius: 18px;
+
+    padding-bottom: 8px;
+}
+
+/* Styles the image for the Daily
+To-Do List */
+.daily-list a img {
+    width: 345px;
+    height: 320px;
+
+    border-radius: 12px;
+}
+
+/* Gives Description space from
+the edge of background */
+.daily-list-fav {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Aligns Science Calculato content 
+center & styles background */
+.sci-calculator {
+    text-align: center;
+
+    background-color: #d4d7c486;
+    border-radius: 18px;
+
+    padding-bottom: 8px;
+}
+
+/* Styles the image for the Science
+Calculator */
+.sci-calculator a img {
+    width: 290px;
+    height: 290px;
+
+    border-radius: 12px;
+}
+
+/* Gives Description space from
+the edge of background */
+.sciCal-fav {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Aligns Tis Game content center
+& styles background */
+.tis-game {
+    text-align: center;
+
+    background-color: #d4d7c486;
+    border-radius: 18px;
+
+    padding-bottom: 8px;
+}
+
+/* Styles the Image for Tis Game 
+project */
+.tis-game a img {
+    width: 360px;
+    height: 185px;
+
+    border-radius: 12px;
+}
+
+/* Gives Description space from
+the edge of background */
+.tis-game-fav {
+    padding-left: 20px;
+    padding-right: 20px;
 }

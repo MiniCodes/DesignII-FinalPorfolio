@@ -171,6 +171,14 @@ h1 {
     color: #8496a2;
 }
 
+/* Styles headers 2 */
+h2 {
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+    font-size: 34px;
+    color: #8496a2d2;
+}
+
 /* Styles headers 3 */
 h3 {
     font-family: 'Marck Script', cursive;
@@ -199,4 +207,180 @@ input {
     font-family: 'Handlee', cursive;
     font-size: 14px;
     color: #79816a;
+}
+
+
+
+/* Positions project websites; moves content
+away from edge of screen */
+.websites-content {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+
+/* Styles the MiniCodes Project Content */
+.minicodes-prjct {
+    background-color: #d4d7c486;
+    border-radius: 18px;
+
+    padding-top: 2px;
+}
+
+/* Creates Grid for MiniCodes Project Content */
+.mini-content {
+    display: grid;
+    grid-template-columns: 1.25fr 1fr;
+    column-gap: 25px;
+}
+
+/* Styles the MiniCodes project description */
+.mini-description {
+    padding-left: 11px;
+    padding-right: 25px;
+}
+
+/* Centers MiniCodes picture content */
+.mini-picture {
+    margin: auto;
+    text-align: center;
+
+    padding-bottom: 22px;
+    padding-left: 15px;
+}
+
+/* Styles the MiniCodes Project Link */
+.mini-picture a {
+    font-family: 'Handlee', cursive;
+    font-size: 16px;
+
+    font-style: italic;
+    font-weight: bold;
+
+    color: #7e8b6bfd;
+}
+
+/* Styles Image for MiniCodes website */
+.mini-picture a img {
+    width: 670px;
+    height: 260px;
+
+    border-radius: 8px;
+}
+
+
+
+/* Styles Dynamic project content */
+.dynamic-prjct {
+    background-color: #d4d7c486;
+    border-radius: 18px;
+
+    padding-top: 2px;
+}
+
+/* Creates Grid for Dynamic project content */
+.dynamic-content {
+    display: grid;
+    grid-template-columns: 1.25fr 1fr;
+    column-gap: 10px;
+}
+
+/* Styles the Dynamic project description */
+.dynamic-description {
+    padding-left: 11px;
+    padding-right: 25px;
+}
+
+/* Styles link for the Updated Project ~ 
+Reflection */
+.update-reflect {
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+
+    color: #61717c;
+}
+
+/* Centers MiniCodes picture content */
+.dynamic-picture {
+    margin: auto;
+    text-align: center;
+
+    padding-bottom: 22px;
+    padding-left: 15px;
+}
+
+/* Styles the Dynamic Project Link */
+.dynamic-picture a {
+    font-family: 'Handlee', cursive;
+    font-size: 16px;
+
+    font-style: italic;
+    font-weight: bold;
+
+    color: #7e8b6bfd;
+}
+
+/* Styles Image for Dynamic HTML project
+website */
+.dynamic-picture a img {
+    width: 670px;
+    height: 260px;
+
+    border-radius: 12px;
+}
+
+
+
+/* Styles Final Dynamic Project content */
+.Final-Dynamic-prjct {
+    background-color: #d4d7c486;
+    border-radius: 18px;
+
+    padding-top: 2px;
+}
+
+/* Creates Grid for Final Dynamic project
+content */
+.final-dynamic-content {
+    display: grid;
+    grid-template-columns: 1.25fr 1fr;
+    column-gap: 10px;
+}
+
+/* Styles Final Dynamic project description */
+.final-dynamic-description {
+    padding-left: 11px;
+    padding-right: 25px;
+}
+
+/* Centers MiniCodes picture content */
+.final-dynamic-pic {
+    margin: auto;
+    text-align: center;
+
+    padding-bottom: 22px;
+    padding-left: 15px;
+}
+
+/* Styles the Final Dynamic Project Link */
+.final-dynamic-pic a {
+    font-family: 'Handlee', cursive;
+    font-size: 16px;
+
+    font-style: italic;
+    font-weight: bold;
+
+    color: #7e8b6bfd;
+}
+
+/* Styles Image for Final Dynamic Project
+website */
+.final-dynamic-pic a img {
+    width: 670px;
+    height: 260px;
+
+    border-radius: 10px;
 }
